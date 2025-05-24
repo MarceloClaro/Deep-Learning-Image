@@ -1,0 +1,40 @@
+
+streamlit
+streamlit-ace
+# Escolha PyTorch ou TensorFlow (ou ambos se necessário)
+# Para PyTorch (CPU):
+torch
+torchvision
+torchaudio
+# Para TensorFlow (CPU):
+# tensorflow
+
+# Bibliotecas de processamento de imagem e dados
+opencv-python-headless
+Pillow
+scikit-learn
+scikit-image
+pandas
+numpy
+matplotlib
+seaborn
+# jszip # Normalmente não é necessário no backend Python se o Streamlit uploader for usado.
+
+# Para API Gemini (se usada no backend/Streamlit)
+google-generativeai
+
+# Para CrewAI e ferramentas de agente
+crewai
+duckduckgo-search
+beautifulsoup4
+requests 
+
+# Para Text-to-Speech no Streamlit
+gTTS
+
+# Para um possível backend API (se não usar apenas Streamlit)
+# fastapi
+# uvicorn[standard]
+
+# Outras utilidades
+python-dotenv # Para carregar .env files se necessário
